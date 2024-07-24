@@ -50,7 +50,7 @@ class _HomescreenState extends State<Homescreen> {
   }
 
   void _startQuoteTimer() {
-    Timer.periodic(Duration(minutes: 5), (timer) {
+    Timer.periodic(Duration(minutes: 2), (timer) {
       if (showQuotes) {
         showQuotePopup(context);
       }
